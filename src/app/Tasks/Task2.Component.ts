@@ -7,10 +7,10 @@ import { Component } from "@angular/core";
 export class Task2Component{
      formnumbergreater(formnum1:number,formnum2:number,formnum3:number) {
          if(formnum1>formnum2 && formnum1>formnum3){
-             alert("Increasing  order");
+             alert("decreasing  order");
          }
          else if(formnum1<formnum2 && formnum1<formnum3){
-             alert("decreasing Order");
+             alert("increasing Order");
          }
          else{
              alert("given pattern is invalid");

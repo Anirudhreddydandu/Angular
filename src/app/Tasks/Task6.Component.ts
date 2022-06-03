@@ -1,25 +1,22 @@
 import { Component } from "@angular/core";
 
 @Component({
-    selector: "Task3",
-    templateUrl: "Task3.html"
+    selector:"Task6",
+    templateUrl:"Task6.html"
 })
-
-export class Task3component {
-    btntriger() {
+export class Task6Component{
+     numberpatterntrigger() {
         let a = ''
-        let z=a
+        let x=1;
         for (let i = 0; i <= 5; i++) {
             for (let j = 1; j <= i; j++) {
-                a += i;
-              
+                a += x;
+                x++;
             }
             a += "\n";
         }
-
-        alert(a);
+       alert(a);
+        
     }
 
- }
-
-
+}
