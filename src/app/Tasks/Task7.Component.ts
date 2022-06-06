@@ -14,6 +14,7 @@ export class Task7Component {
             }
             string += "\n";
         }
-        console.log(string);
+        
+        alert(string);
     }
 }
